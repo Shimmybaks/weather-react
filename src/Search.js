@@ -32,7 +32,7 @@ export default function Engine(props) {
                 <div className="container">
                     <div id="weather" className="weather-container"></div>
                     <small>
-                        <a href="https://github.com/Shimmybaks/weather-react" target="_blank">
+                        <a href="https://github.com/Shimmybaks/weather-react" target="_blank" rel="noreferrer">
                             Open-source code
                         </a>
                         , by <a href="https://github.com/Shimmybaks">Shimei Bakala</a>
