@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import "./App.css";
+import "./Styles.css";
+
 export default function Engine(props) {
     let [city, showCity] = useState("");
     let [sentence, displaySentence] = useState("");
@@ -27,6 +28,17 @@ export default function Engine(props) {
             </form>
             <h2>{sentence}</h2>
             <h3>{variant}</h3>
+            <footer>
+                <div className="container">
+                    <div id="weather" className="weather-container"></div>
+                    <small>
+                        <a href="https://github.com/Shimmybaks/weather-react" target="_blank">
+                            Open-source code
+                        </a>
+                        , by <a href="https://github.com/Shimmybaks">Shimei Bakala</a>
+                    </small>
+                </div>
+            </footer>
         </div>
     );
 }
